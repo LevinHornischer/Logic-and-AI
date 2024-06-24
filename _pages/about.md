@@ -16,4 +16,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-This is the website for the project 'Logic and AI'. It is currently under construction.
+This is the website for the project 'Logic and AI' run during summer 2024 at the Institute for Advanced Study in Amsterdam. It is currently under construction.
