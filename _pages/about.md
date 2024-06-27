@@ -6,9 +6,9 @@ subtitle:
 
 profile:
   align: right
-  image:  
+  image: tulips.jpg 
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: <p>Structure amidst the detail?</p>
 
 
 news: true # includes a list of news items
