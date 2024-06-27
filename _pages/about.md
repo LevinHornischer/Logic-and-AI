@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-This is the website for the project _Logic and AI_. It runs during summer 2024 at the [Institute for Advanced Study](https://ias.uva.nl/) in Amsterdam. The project members are
+This is the website for the project _Logic and AI_. It runs during summer 2024 at the [Institute for Advanced Study](https://ias.uva.nl/) in Amsterdam. The project members are:
 
 * [Johan van Benthem](https://staff.fnwi.uva.nl/j.vanbenthem/) (University of Amsterdam/ILLC, Stanford University, Tsinghua University)
 * [Balder ten Cate](https://staff.fnwi.uva.nl/b.d.tencate/) (University of Amsterdam/ILLC)
@@ -26,7 +26,7 @@ This is the website for the project _Logic and AI_. It runs during summer 2024 a
 * [Sara Magliacane](https://saramagliacane.github.io/) (University of Amsterdam/AMLab)
 
 
-The project is about re-mapping the landscape of logic and AI after the deep learning revolution. Despite tremendous successes, modern AI still struggles with explainability, interpretability, and verifiability. Historically, logic exceled at these desiderata. So the goal of the project is to identifying concrete and promising questions how _exactly_ logic can help AI. 
+The project is about re-mapping the landscape of logic and AI after the deep learning revolution. Despite tremendous successes, modern AI still struggles with explainability, interpretability, and verifiability. Historically, logic excelled at these desiderata. So the goal of the project is to identify concrete and promising questions how _exactly_ logic can help AI. 
 
 
 The project just started, so the website is still under constructions: stay tuned!
