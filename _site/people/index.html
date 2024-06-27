@@ -89,7 +89,7 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
     <div class="container">
       
-        <a class="navbar-brand title font-weight-lighter" href="/Logic-and-AI//">
+        <a class="navbar-brand title font-weight-lighter" href="/Logic-and-AI/">
           Logic and AI
         </a>
       
@@ -114,6 +114,8 @@
 
           <!-- Other pages -->
           
+          
+            
           
             
           
@@ -158,13 +160,6 @@
             
           
           
-            <!-- Search -->
-            <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
-              </button>
-            </li>
-          
           
             <!-- Toogle theme mode -->
             <li class="toggle-container">
@@ -202,6 +197,116 @@
   <article>
     <div class="post">
   <article>
+    
+      
+        <hr>
+        <div class="profile float-left">
+          
+          
+        </div>
+
+        <div class="clearfix">
+          
+            
+            <ul>
+  <li>
+<a href="https://staff.fnwi.uva.nl/j.vanbenthem/" rel="external nofollow noopener" target="_blank">Johan van Benthem</a> (University of Amsterdam/ILLC, Stanford University, Tsinghua University)</li>
+</ul>
+
+
+          
+        </div>
+      
+        <hr>
+        <div class="profile float-left">
+          
+          
+        </div>
+
+        <div class="clearfix">
+          
+            
+            <ul>
+  <li>
+<a href="https://staff.fnwi.uva.nl/b.d.tencate/" rel="external nofollow noopener" target="_blank">Balder ten Cate</a> (University of Amsterdam/ILLC)</li>
+</ul>
+
+
+          
+        </div>
+      
+        <hr>
+        <div class="profile float-left">
+          
+          
+        </div>
+
+        <div class="clearfix">
+          
+            
+            <ul>
+  <li>
+<a href="https://www.cs.vu.nl/~frankh/" rel="external nofollow noopener" target="_blank">Frank van Harmelen</a> (Vrije Universiteit Amsterdam)</li>
+</ul>
+
+
+          
+        </div>
+      
+        <hr>
+        <div class="profile float-left">
+          
+          
+        </div>
+
+        <div class="clearfix">
+          
+            
+            <ul>
+  <li>
+<a href="https://levinhornischer.github.io/" rel="external nofollow noopener" target="_blank">Levin Hornischer</a> (LMU Munich/MCMP)</li>
+</ul>
+
+
+          
+        </div>
+      
+        <hr>
+        <div class="profile float-left">
+          
+          
+        </div>
+
+        <div class="clearfix">
+          
+            
+            <ul>
+  <li>
+<a href="https://web.stanford.edu/~icard/" rel="external nofollow noopener" target="_blank">Thomas Icard</a> (Stanford University)</li>
+</ul>
+
+
+          
+        </div>
+      
+        <hr>
+        <div class="profile float-left">
+          
+          
+        </div>
+
+        <div class="clearfix">
+          
+            
+            <ul>
+  <li>
+<a href="https://saramagliacane.github.io/" rel="external nofollow noopener" target="_blank">Sara Magliacane</a> (University of Amsterdam/AMLab)</li>
+</ul>
+
+
+          
+        </div>
+      
     
   </article>
 </div>
@@ -406,92 +511,6 @@
 
 
     
-  <script type="module" src="/Logic-and-AI/assets/js/search/ninja-keys.min.js?601a2d3465e2a52bec38b600518d5f70"></script>
-  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
-  <script>
-    let searchTheme = determineComputedTheme();
-    const ninjaKeys = document.querySelector('ninja-keys');
-
-    if (searchTheme === 'dark') {
-      ninjaKeys.classList.add('dark');
-    } else {
-      ninjaKeys.classList.remove('dark');
-    }
-
-    const openSearchModal = () => {
-      // collapse navbarNav if expanded on mobile
-      const $navbarNav = $('#navbarNav');
-      if ($navbarNav.hasClass('show')) {
-        $navbarNav.collapse('hide');
-      }
-      ninjaKeys.open();
-    };
-  </script>
-  <script>
-    // get the ninja-keys element
-    const ninja = document.querySelector('ninja-keys');
-
-    // add the home and posts menu items
-    ninja.data = [{
-        id: "nav-about",
-        title: "about",
-        section: "Navigation",
-        handler: () => {
-          window.location.href = "/Logic-and-AI/";
-        },
-      },{id: "nav-blog",
-              title: "blog",
-              description: "",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/Logic-and-AI/blog/";
-              },
-            },{id: "nav-people",
-              title: "people",
-              description: "project members",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/Logic-and-AI/people/";
-              },
-            },{id: "news-tba",
-          title: 'TBA',
-          description: "",
-          section: "News",},{
-            id: 'socials-rss',
-            title: 'RSS Feed',
-            section: 'Socials',
-            handler: () => {
-              window.open("/Logic-and-AI//feed.xml", "_blank");
-            },
-          },{
-          id: 'light-theme',
-          title: 'Change theme to light',
-          description: 'Change the theme of the site to Light',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("light");
-          },
-        },
-        {
-          id: 'dark-theme',
-          title: 'Change theme to dark',
-          description: 'Change the theme of the site to Dark',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("dark");
-          },
-        },
-        {
-          id: 'system-theme',
-          title: 'Use system default theme',
-          description: 'Change the theme of the site to System Default',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("system");
-          },
-        },];
-  </script>
-
 
     <script src="/Logic-and-AI/assets/js/shortcut-key.js"></script>
   </body>

@@ -8,7 +8,7 @@ middle_name:
 last_name:  
 email:  
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  The website of the 'Logic and AI' project run during summer 2024 at the Institute for Advanced Study in Amsterdam
+  The website of the 'Logic and AI' project, run during summer 2024 at the Institute for Advanced Study in Amsterdam
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -27,8 +27,8 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # vue # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # shadow_green # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: vue # default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: shadow_green # dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -48,7 +48,7 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false # true
 socials_in_search: true
 
 # Dimensions

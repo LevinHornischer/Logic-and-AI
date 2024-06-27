@@ -20,7 +20,7 @@
   
 </title>
 <meta name="author" content=" ">
-<meta name="description" content="The website of the 'Logic and AI' project run during summer 2024 at the Institute for Advanced Study in Amsterdam
+<meta name="description" content="The website of the 'Logic and AI' project, run during summer 2024 at the Institute for Advanced Study in Amsterdam
 ">
 
 
@@ -127,6 +127,8 @@
             
           
             
+          
+            
               
                 
                 <li class="nav-item ">
@@ -150,13 +152,6 @@
               
             
           
-          
-            <!-- Search -->
-            <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
-              </button>
-            </li>
           
           
             <!-- Toogle theme mode -->
@@ -207,7 +202,26 @@
     
 
     <div class="clearfix">
-<p>This is the website for the project ‘Logic and AI’ run during summer 2024 at the Institute for Advanced Study in Amsterdam. It is currently under construction.</p>
+<p>This is the website for the project <em>Logic and AI</em>. It runs during summer 2024 at the <a href="https://ias.uva.nl/" rel="external nofollow noopener" target="_blank">Institute for Advanced Study</a> in Amsterdam. The project members are</p>
+
+<ul>
+  <li>
+<a href="https://staff.fnwi.uva.nl/j.vanbenthem/" rel="external nofollow noopener" target="_blank">Johan van Benthem</a> (University of Amsterdam/ILLC, Stanford University, Tsinghua University)</li>
+  <li>
+<a href="https://staff.fnwi.uva.nl/b.d.tencate/" rel="external nofollow noopener" target="_blank">Balder ten Cate</a> (University of Amsterdam/ILLC)</li>
+  <li>
+<a href="https://www.cs.vu.nl/~frankh/" rel="external nofollow noopener" target="_blank">Frank van Harmelen</a> (Vrije Universiteit Amsterdam)</li>
+  <li>
+<a href="https://levinhornischer.github.io/" rel="external nofollow noopener" target="_blank">Levin Hornischer</a> (LMU Munich/MCMP)</li>
+  <li>
+<a href="https://web.stanford.edu/~icard/" rel="external nofollow noopener" target="_blank">Thomas Icard</a> (Stanford University)</li>
+  <li>
+<a href="https://saramagliacane.github.io/" rel="external nofollow noopener" target="_blank">Sara Magliacane</a> (University of Amsterdam/AMLab)</li>
+</ul>
+
+<p>The project is about re-mapping the landscape of logic and AI after the deep learning revolution. Despite tremendous successes, modern AI still struggles with explainability, interpretability, and verifiability. Historically, logic exceled at these desiderata. So the goal of the project is to identifying concrete and promising questions how <em>exactly</em> logic can help AI.</p>
+
+<p>The project just started, so the website is still under constructions: stay tuned!</p>
 </div>
 
     <!-- News -->
@@ -227,8 +241,7 @@
             <th scope="row" style="width: 20%">Jun 24, 2024</th>
             <td>
               
-                TBA
-
+                We will have the <a href="https://ias.uva.nl/content/events/2024/07/logic-and-ai.html?origin=PRy12xnsQemXLkKbh0An2g" rel="external nofollow noopener" target="_blank">kick-off workshop</a> of our project on 16 and 17 July 2024. On-site participation is already fully booked, but you can still participate online! Just sign up via the link, it would be great to see you there.
 
               
             </td>
@@ -253,6 +266,15 @@
       <table class="table table-sm table-borderless">
         
         
+        
+          <tr>
+            <th scope="row" style="width: 20%">Jun 27, 2024</th>
+            <td>
+              
+                <a class="news-title" href="/Logic-and-AI/blog/2024/welcome/">Welcome to Logic and AI!</a>
+              
+            </td>
+          </tr>
         
       </table>
     </div>
@@ -464,92 +486,6 @@
 
 
     
-  <script type="module" src="/Logic-and-AI/assets/js/search/ninja-keys.min.js?601a2d3465e2a52bec38b600518d5f70"></script>
-  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
-  <script>
-    let searchTheme = determineComputedTheme();
-    const ninjaKeys = document.querySelector('ninja-keys');
-
-    if (searchTheme === 'dark') {
-      ninjaKeys.classList.add('dark');
-    } else {
-      ninjaKeys.classList.remove('dark');
-    }
-
-    const openSearchModal = () => {
-      // collapse navbarNav if expanded on mobile
-      const $navbarNav = $('#navbarNav');
-      if ($navbarNav.hasClass('show')) {
-        $navbarNav.collapse('hide');
-      }
-      ninjaKeys.open();
-    };
-  </script>
-  <script>
-    // get the ninja-keys element
-    const ninja = document.querySelector('ninja-keys');
-
-    // add the home and posts menu items
-    ninja.data = [{
-        id: "nav-about",
-        title: "about",
-        section: "Navigation",
-        handler: () => {
-          window.location.href = "/Logic-and-AI/";
-        },
-      },{id: "nav-blog",
-              title: "blog",
-              description: "",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/Logic-and-AI/blog/";
-              },
-            },{id: "nav-people",
-              title: "people",
-              description: "project members",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/Logic-and-AI/people/";
-              },
-            },{id: "news-tba",
-          title: 'TBA',
-          description: "",
-          section: "News",},{
-            id: 'socials-rss',
-            title: 'RSS Feed',
-            section: 'Socials',
-            handler: () => {
-              window.open("/Logic-and-AI//feed.xml", "_blank");
-            },
-          },{
-          id: 'light-theme',
-          title: 'Change theme to light',
-          description: 'Change the theme of the site to Light',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("light");
-          },
-        },
-        {
-          id: 'dark-theme',
-          title: 'Change theme to dark',
-          description: 'Change the theme of the site to Dark',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("dark");
-          },
-        },
-        {
-          id: 'system-theme',
-          title: 'Use system default theme',
-          description: 'Change the theme of the site to System Default',
-          section: 'Theme',
-          handler: () => {
-            setThemeSetting("system");
-          },
-        },];
-  </script>
-
 
     <script src="/Logic-and-AI/assets/js/shortcut-key.js"></script>
   </body>
