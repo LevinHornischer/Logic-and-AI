@@ -26,7 +26,7 @@ This is the website for the project _Logic and AI_. It runs during summer 2024 a
 * [Sara Magliacane](https://saramagliacane.github.io/) (University of Amsterdam/AMLab)
 
 
-The project is about re-mapping the landscape of logic and AI after the deep learning revolution. Despite tremendous successes, modern AI still struggles with explainability, interpretability, and verifiability. Historically, logic excelled at these desiderata. So the goal of the project is to identify concrete and promising questions how _exactly_ logic can help AI. 
+The project is about re-mapping the landscape of logic and AI after the deep learning revolution. Despite tremendous successes, modern AI still struggles with explainability, interpretability, and verifiability. Historically, logic excelled at these desiderata. So the goal of the project is to identify concrete and promising questions how _exactly_ logic and AI can help each other.
 
 
-The project just started, so the website is still under constructions: stay tuned!
+The project just started: stay tuned!
