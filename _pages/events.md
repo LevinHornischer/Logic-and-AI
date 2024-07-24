@@ -10,7 +10,7 @@ nav_order: 1
 
 ---
 
-# Kick-off workshop: 16-17 July 2024
+## Kick-off workshop: 16-17 July 2024
 
 This workshop brought together international experts on the topic of "Logic and AI" with the goal of exploring the promising interactions of these two fields. We had 8 talks subdivided into 3 topics: 
 (a) different forms of neuro-symbolic integration, (b) expressive and computational power of machine learning, and (c) the intersection of causality, logic, and machine learning.
@@ -26,7 +26,7 @@ _Neuro-symbolic integration 1_ (hosted by Sara Magliacane)
 
 * Levin Hornischer (LMU Munich)
 
-  [Semantics for Non-symbolic Computation: Including Neural Networks and Analog Computers]((assets/pdf/slides_july/hornischer.pdf))
+  [Semantics for Non-symbolic Computation: Including Neural Networks and Analog Computers](../assets/pdf/slides_july/hornischer.pdf)
 
 
 _Expressive power of machine learning_ (hosted by Balder ten Cate)
@@ -48,7 +48,7 @@ _Neuro-symbolic integration 2_ (hosted by Levin Hornischer)
 
 * Herbert Jaeger (University of Groningen)
 
-  [What a mathematical foundation for unconventional computing should deliver and how it might look like](assets/pdf/slides_july/jaeger.pdf)
+  [What a mathematical foundation for unconventional computing should deliver and how it might look like](../assets/pdf/slides_july/jaeger.pdf)
 
 
 _Causality, logic, and machine learning_ (hosted by Johan van Benthem)
@@ -59,13 +59,12 @@ _Causality, logic, and machine learning_ (hosted by Johan van Benthem)
 
 * Thomas Icard (Stanford University)
 
-  [Causal Inference from a Logical Point of View]((assets/pdf/slides_july/icard.pdf))
+  [Causal Inference from a Logical Point of View](../assets/pdf/slides_july/icard.pdf)
   
 
 We very much enjoyed the many inspiring discussions bridging the different areas of the field. We warmly thank the speakers, the on-site participants, and especially also the many online participants for their contributions to the workshop!
 
-
-![Group picture of the on-site workshop participants](assets/img/workshop_july_group.JPG)
+<img src="../assets/img/workshop_july_group.JPG" alt="Group picture of the on-site workshop participants" style="height: 100%; width: 100%; object-fit: contain"/>
 
 ---  
 
