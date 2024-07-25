@@ -12,7 +12,7 @@ nav_order: 1
 
 ## Kick-off workshop: 16-17 July 2024
 
-This workshop brought together international experts on the topic of "Logic and AI" with the goal of exploring the promising interactions of these two fields. We had 8 talks subdivided into 3 topics: 
+This workshop brought together international experts on the topic of "Logic and AI" with the goal of exploring the promising interactions of these two fields. We had 8 talks and plenty of discussions divided into 3 subtopics: 
 (a) different forms of neuro-symbolic integration, (b) expressive and computational power of machine learning, and (c) the intersection of causality, logic, and machine learning.
  
 The talks are listed below (you can click on the title to see the slides, if available), and the workshop website is [here](https://ias.uva.nl/content/events/2024/07/logic-and-ai.html?origin=PRy12xnsQemXLkKbh0An2g&cb).
@@ -22,7 +22,7 @@ _Neuro-symbolic integration 1_ (hosted by Sara Magliacane)
 
 * Giuseppe Marra (KU Leuven) 
 
-  From Statistical Relational to Neuro-Symbolic AI
+  [From Statistical Relational to Neuro-Symbolic AI](../assets/pdf/slides_july/marra.pdf)
 
 * Levin Hornischer (LMU Munich)
 
