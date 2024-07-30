@@ -44,7 +44,7 @@ _Neuro-symbolic integration 2_ (hosted by Levin Hornischer)
 
 * Sebastijan Dumančić (TU Delft)
 
-  Machine learning models that provably satisfy constraints
+  [Machine learning models that provably satisfy constraints](../assets/pdf/slides_july/dumancic.pdf)
 
 * Herbert Jaeger (University of Groningen)
 
