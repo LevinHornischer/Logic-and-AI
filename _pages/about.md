@@ -29,4 +29,4 @@ This is the website for the project _Logic and AI_. It runs during summer 2024 a
 The project is about re-mapping the landscape of logic and AI after the deep learning revolution. Despite tremendous successes, modern AI still struggles with explainability, interpretability, and verifiability. Historically, logic excelled at these desiderata. So the goal of the project is to identify concrete and promising questions how _exactly_ logic and AI can help each other.
 
 
-The project just started: stay tuned!
+We are currently working on an overview paper of the different approaches to Logic and AI: stay tuned!
